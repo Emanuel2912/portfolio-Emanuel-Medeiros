@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "installCommand": "cd frontend && npm install --legacy-peer-deps",
+  "installCommand": "cd frontend && npm ci --legacy-peer-deps --no-audit --no-fund",
   "buildCommand": "cd frontend && npm run build",
   "outputDirectory": "frontend/build",
   "rewrites": [
